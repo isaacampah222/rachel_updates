@@ -9,6 +9,7 @@
         <li><a href="stats.php"<?php if ($page_nav == "stats") { echo ' class="active"'; } ?> target="_top"><?php echo $lang['stats'] ?></a></li>
         <li><a href="settings.php"<?php if ($page_nav == "settings") { echo ' class="active"'; } ?> target="_top"><?php echo $lang['settings'] ?></a></li>
         <li><a href="requests.php"<?php if ($page_nav == "requests") { echo ' class="active"'; } ?> target="_top">Requests</a></li>
+        <li><a href="update.php"<?php if ($page_nav == "updates") { echo ' class="active"'; } ?> target="_top">Update</a></li>
         <li><a href="logout.php"><?php echo $lang['logout'] ?></a></li>
     </ul>
     <div id="ip">
